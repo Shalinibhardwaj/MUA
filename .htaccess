@@ -1,0 +1,16 @@
+RewriteEngine on
+
+# Apache config
+# <FilesMatch ".(eot|ttf|otf|woff)">
+#    Header set Access-Control-Allow-Origin "*"
+# </FilesMatch>
+
+SetEnv CI_ENV development
+## SetEnv CI_ENV staging
+## SetEnv CI_ENV production
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php/$0 [PT,L]
+
+Options -Indexes
