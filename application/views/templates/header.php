@@ -167,14 +167,14 @@
             <div class="close-btn"><i class="fas fa-times"></i></div>
 
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="<?php echo STATIC_URL; ?>/assets/images/logo-2.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="index.html"><img src="<?php echo STATIC_URL; ?>/assets/images/apra-logo.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
                 <div class="contact-info">
                     <h4>Contact Info</h4>
                     <ul>
-                        <li>Chicago 12, Melborne City, USA</li>
-                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
-                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                        <li>Sector-8, Rohini, Delhi</li>
+                        <li><a href="tel:+8801682648101">+91 9898989989</a></li>
+                        <li><a href="mailto:info@example.com">info@askyourquery.com</a></li>
                     </ul>
                 </div>
                 <div class="social-links">

@@ -101,8 +101,8 @@ if(PLATFORM_ENV == 'PROD'){
   $cc = array();
   $bcc = array();
 } else {
-  // $baseUrl = 'http://local.rudratravels.net/';
-  $baseUrl = 'http://muadevworld.rf.gd/';
+  $baseUrl = 'http://local.rudratravels.net/';
+  // $baseUrl = 'http://muadevworld.rf.gd/';
   $cc = array();
   $bcc = array();
 }
